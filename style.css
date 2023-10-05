@@ -1,0 +1,114 @@
+/* Center the form control elements */
+.form-control {
+  width: 100%;
+  margin: 0 auto; /* Center-align the form controls */
+}
+
+/* Style labels with rounded corners and a different color */
+label {
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 5px; /* Apply rounded corners to labels */
+  background-color: #007bff; /* Change the background color */
+  color: white; /* Change text color */
+  padding: 5px 10px; /* Add some padding for better appearance */
+  font-weight: bold;
+}
+
+/* Center-align headings */
+h1, h2 {
+  text-align: center;
+}
+
+/* Center-align table elements */
+table, td, tr {
+  border: 2px solid black;
+}
+
+th, td {
+  padding: 25px;
+  text-align: center;
+}
+
+/* Center-align unordered list */
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center; /* Center-align the text */
+  margin: 0 auto; /* Center-align the list */
+}
+
+/* Center-align strong elements */
+strong {
+  font-size: large;
+  text-align: center;
+  display: block;
+  margin: 10px auto; /* Center-align the strong elements */
+}
+
+/* Center-align table with rounded corners */
+.table {
+  width: 60%;
+  margin: 0 auto; /* Center the table horizontally */
+  border-radius: 10px; /* Apply rounded corners to the table */
+  border-collapse: collapse; /* Collapse table borders */
+}
+
+/* Style top navigation */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 15px; /* Apply rounded corners to the buttons */
+  margin: 0 5px; /* Add some spacing between buttons */
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Center the "Run" button */
+/* Center the "Run" button in the panel footer */
+.panel-footer button {
+  display: left;
+  margin: 10 ;
+}
+
+/* Center the heading in the navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #858484;
+  text-align: center; /* Center-align the content */
+}
+
+.topnav a {
+  float: none; /* Remove float from the links */
+  color: #f2f2f2;
+  text-align: center; /* Center-align the links */
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 15px;
+  margin: 0 5px;
+}
+
+.topnav h1.nav-heading {
+  color: #f2f2f2; /* Set the color for the heading */
+  font-size: 24px; /* Adjust the font size */
+  margin: 0; /* Remove any default margin */
+  padding: 10px 0; /* Add padding to space it from the links */
+}
