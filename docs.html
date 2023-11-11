@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Banker's Algorithm</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Banker's Algorithm</h1>
+    <table>
+        <tr>
+            <td>
+                <label for="processes">Enter total number of processes:</label>
+            </td>
+            <td>
+                <input type="text" id="processes" name="processes">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="resources">Enter total number of resources:</label>
+            </td>
+            <td>
+                <input type="text" id="resources" name="resources">
+            </td>
+        </tr>
+    </table>
+
+    <h2>Enter available resources:</h2>
+    <table id="availableResources" class="matrix"></table>
+
+    <h2>Enter allocation matrix:</h2>
+    <table id="allocationMatrix" class="matrix"></table>
+
+    <h2>Enter maximum requirement matrix:</h2>
+    <table id="maximumMatrix" class="matrix"></table>
+
+    <button type="button" onclick="runBankersAlgorithm()">Run</button>
+
+	<div id="needMatrixDiv">
+        <!-- Display the Need Matrix here -->
+    </div>
+	
+    <div id="result">
+        <!-- Display the result of the Banker's Algorithm here -->
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
